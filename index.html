@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light " style="background-color: rgb(234, 231, 226);">
+        <div class="container">
+          <a class="navbar-brand d-flex justify-content-around" href="index.html">
+            <img src="Redears.png" alt="" width="184" height="50">
+          </a>
+          <div>
+            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#Register" >Register</button>
+            <button type="button" class="btn btn-outline-secondary mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Log In</button>
+          </div>
+        </div>
+
+       
+  </nav>
+
+
+
+
+
+  
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Log in Please here</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="emil-login" class="col-form-label">Email:</label>
+              <input type="email" class="form-control" id="emil-login">
+            </div>
+            <div class="mb-3">
+              <label for="pass-Login" class="col-form-label">Password:</label>
+              <input class="form-control"  id="pass-Login"></input>
+            </div>
+            <div id="toast" class="toast">
+                
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" id="login-btn" class="btn btn-primary" >Log In</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+  
+<div class="modal fade" id="Register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Register Please </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Name:</label>
+              <input type="text" class="form-control" id="name-register">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Email:</label>
+              <input type="email" class="form-control" id="email-register"></input>
+            </div>
+
+            <div class="mb-3">
+                <label for="message-text" class="col-form-label">Password:</label>
+                <input type="password" class="form-control" id="password-register"></input>
+              </div>
+
+              <div id="toast1" class="toast">
+                
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" id="sign-in" class="btn btn-primary" >sign up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+
+
+
+<div id="container" class="card-container p-4 d-flex flex-wrap align-items-center justify-content-center justify-items-center gap-2">
+
+</div>
+  <!-- <div class="card" style="width: 18rem;">
+    <img id="card-img" src="" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p id="card-text" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div> -->
+
+
+
+
+   
+<script src="main.js"></script>
+</body>
+</html>
